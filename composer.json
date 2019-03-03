@@ -1,0 +1,26 @@
+{
+  "name": "polevaultweb/codeception-wait",
+  "description": "Wait library for modules of Codeception",
+  "keywords": [
+    "Codeception",
+    "Wait"
+  ],
+  "type": "library",
+  "license": "MIT",
+  "authors": [
+    {
+      "name": "polevaultweb (Iain Poulson)",
+      "email": "iain@polevaultweb.com",
+      "homepage": "https://polevaultweb.com"
+    }
+  ],
+  "require": {
+    "php": ">=5.4.0",
+    "codeception/codeception": "*"
+  },
+  "autoload": {
+    "psr-4": {
+      "Codeception\\Module\\": "src"
+    }
+  }
+}
